@@ -5,13 +5,13 @@ Requests are sent using Axios.
 Tests are run using Jest.  
 Additionally, lodash and memento libraries were used.  
   
-To make project work run the following commands after clonning the repo:  
+To make project work run the following command after clonning the repo:  
   
-yarn init  
 yarn install  
  
 To run all test cases, use the following command:  
   
 yarn run jest  
+
 It is expected that all tests are passed (green).  
 
