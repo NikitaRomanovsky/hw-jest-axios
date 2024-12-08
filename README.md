@@ -1,17 +1,35 @@
-# hw-jest-axios
-This project tests different HTTPS request on booking endpoint.  
-For all requests respective testing suites have been created.  
-Requests are sent using Axios.  
-Tests are run using Jest.  
-Additionally, lodash and memento libraries were used.  
-  
-To make project work run the following command after clonning the repo:  
-  
-yarn install  
- 
-To run all test cases, use the following command:  
-  
-yarn run jest  
+# 🧪 Jest Axios API Testing Suite
 
-It is expected that all tests are passed (green).  
+## 📌 Overview
+This repository contains a testing suite built using **Jest** and **Axios** to perform REST API testing.
 
+It is structured to test endpoints like booking APIs, validate responses, error handling, and edge cases using Jest's testing framework and Axios for HTTP requests.
+
+---
+
+## 🚀 Features
+- ✅ **Modular Design:** Separated interfaces, request bodies, and headers for better maintainability.
+- 🔗 **Reusable Components:** Common headers, request bodies, and shared utility functions.
+- 🧪 **Comprehensive Testing:** Handles positive flows, edge cases, and failure scenarios.
+- 📊 **Structured Logs:** Easily trace responses and failures for debugging.
+
+---
+
+## 🛠️ Technologies Used
+- **Jest:** Testing framework for JavaScript and TypeScript.
+- **Axios:** Promise-based HTTP client to make REST calls.
+- **TypeScript:** Strictly typed JavaScript with interfaces and type safety.
+- **Node.js**
+
+---
+
+## 💻 Installation & Setup
+
+### 1. Clone the Repository
+git clone https://github.com/NikitaRomanovsky/hw-jest-axios.git
+
+### 2. Install Dependencies Using Yarn
+yarn install
+
+### 3. Run All Tests with Jest
+yarn run jest
