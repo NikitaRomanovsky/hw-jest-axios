@@ -26,7 +26,7 @@ It is structured to test endpoints like booking APIs, validate responses, error 
 ## 💻 Installation & Setup
 
 ### 1. Clone the Repository
-git clone https://github.com/NikitaRomanovsky/hw-jest-axios.git
+git clone https://github.com/NikitaRomanovsky/jest-axios-tests.git
 
 ### 2. Install Dependencies Using Yarn
 yarn install
